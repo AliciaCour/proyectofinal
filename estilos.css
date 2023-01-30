@@ -1,0 +1,87 @@
+* {
+   box-sizing: border-box;
+   margin-top:0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+header{
+   text-align: center;
+   background-color:blanchedalmond;
+}
+
+class{
+   text-emphasis-color: white;
+   background-color: black;
+}
+  
+section#perfil{
+    height: 65vh;
+    background-color: lightgray;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size: 24px;
+    font-weight: bold;
+    
+ }
+  
+ section#perfil img{
+    width:200px;
+    border: 5px black solid;
+ }
+ 
+ h1{
+    font-size:50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+ }    
+
+ h2{
+    font-size:35px;
+   
+ }
+
+ .lista-experiencia{
+    width: 100%;
+    font-size: large;
+    text-align: justify;
+    font-style: oblique;
+}
+
+.lista-experiencia h2{
+    font-size:30px;
+    font-style:normal;
+}
+
+.lista-habilidades{
+    margin-top: 10px;
+    font-size: large;
+    text-align: justify;
+    font-style: oblique;
+}
+
+.lista-habilidades h2{
+    font-size:30px;
+    font-style:normal;
+}
+
+section#datos{
+    height: 25vh;
+    background-color:blanchedalmond;
+    margin-top: 15px;
+}
+
+button {
+   background: black;
+   color:#fff;
+   padding: 0.6rem;
+   margin-top: 0px; 
+   border:none;
+   border-radius: 4px;
+   align-items: center;
+}
+
+demo {
+
+}
